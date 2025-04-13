@@ -1,5 +1,5 @@
 # 🎭 Glitched Face  
-> *Anomaly samples from corrupted generative adversarial training*
+> *Anomaly samples from corrupted GAN*
 
 ---
 
@@ -22,8 +22,8 @@ This project contains images generated under deliberately degraded conditions us
 
 ## 🧪 Project Overview
 
-**Glitched Face** is an experimental visual archive based on intentionally misconfigured GAN training.  
-A weakened discriminator architecture was used to observe emergent behavior in the generator.  
+**Glitched Face** is an experimental visual archive based on intentionally misconfigured GAN training.
+
 The resulting outputs deviated from normal facial structures and exhibit features such as:
 
 - Mode collapse  
@@ -32,23 +32,14 @@ The resulting outputs deviated from normal facial structures and exhibit feature
 
 This repository is intended solely for visual reference and archival purposes. **No model weights or training procedures are provided.**
 
-## 🧱 Architecture (Abstract Only)
-
-The discriminator was purposefully weakened using non-standard convolution parameters (e.g., irregular kernel sizes, large strides).  
-This led to failure in providing sufficient training pressure, encouraging the generator to learn unstable or symbolic features.
-
-**Exact architecture and training details have been omitted.**
-
 ---
 
 ## 📜 License & Usage Restrictions
 
-This project is released under a **Non-Commercial, No Redistribution** license:
+This project is released under a **Non-Commercial** license:
 
-- ❌ Commercial use is strictly prohibited  
-- ❌ Reposting, mirroring, or dataset extraction is not allowed  
-- ❌ No reuse of samples, models, or latent vectors for further training or AI development  
-- ✅ Use is permitted only for personal viewing, academic inspiration, or non-public research
+- Commercial use is strictly prohibited  
+- Redistribution is only allowed with proper citation and credit on this repository
 
 ---
 
@@ -56,3 +47,7 @@ This project is released under a **Non-Commercial, No Redistribution** license:
 
 Some images may induce discomfort or psychological unease.  
 If you feel distressed or experience lingering impressions, we recommend discontinuing viewing immediately.
+
+---
+
+## Click the [images](images) folder to view the generated samples.
